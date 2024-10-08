@@ -3,18 +3,17 @@
 This project implements a machine translation system that translates sentences from one language to another using advanced deep learning techniques, specifically focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, Gated Recurrent Units (GRU), and the Attention Mechanism. The implementation is done in a Jupyter Notebook (machine_translation.ipynb), leveraging popular machine learning frameworks such as TensorFlow and Keras.
 
 # Table of Contents
-  ## Introduction
-  ## Dataset
-  ## Model Architecture
-  - **Encoder-Decoder Architecture**
-  - **Recurrent Neural Networks (RNN)**
-  - **Long Short-Term Memory (LSTM)**
-  - **Gated Recurrent Unit (GRU)**
-  - **Attention Mechanism**
-  ## Project Structure
-  ## How to Run the Project
-  ## Dependencies
-  ## License
+  - **Introduction**
+  - **Dataset**
+  - **Model Architecture**
+    - **Encoder-Decoder Architecture**
+    - **Recurrent Neural Networks (RNN)**
+    - **Long Short-Term Memory (LSTM)**
+    - **Gated Recurrent Unit (GRU)**
+    - **Attention Mechanism**
+  - **Project Structure**
+  - **Dependencies**
+  - **License**
 
 # Introduction
   Machine translation is a challenging task in Natural Language Processing (NLP) that involves automatically translating text from one language to another. In this project, we build a machine translation model that uses sequence-to-sequence learning (Seq2Seq) architecture with the attention mechanism to improve translation accuracy.
