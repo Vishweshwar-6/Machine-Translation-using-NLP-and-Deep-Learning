@@ -1,9 +1,10 @@
-# Machine-Translation-of-text-from-English-to-Spanish
+# Machine-Translation-using-NLP-and-Deep-Learning
 
 This project implements a machine translation system that translates sentences from one language to another using advanced deep learning techniques, specifically focusing on Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, Gated Recurrent Units (GRU), and the Attention Mechanism. The implementation is done in a Jupyter Notebook (machine_translation.ipynb), leveraging popular machine learning frameworks such as TensorFlow and Keras.
 
 # Table of Contents
   ## Introduction
+  ## Dataset
   ## Model Architecture
   - **Encoder-Decoder Architecture**
   - **Recurrent Neural Networks (RNN)**
@@ -30,6 +31,9 @@ This project implements a machine translation system that translates sentences f
   The encoder processes the input sentence and generates a hidden representation or context vector, which summarizes the information of the entire input sequence.
   The decoder takes this context vector and generates the target sequence one word at a time.
   In this project, we use RNN-based architectures (LSTMs, GRUs) for both the encoder and the decoder to handle the sequential nature of text data.
+
+# Dataset
+  The dataset used in this project consists of paired Spanish and English sentences. The dataset was preprocessed to clean the text, remove punctuation, and tokenize the sentences for feeding into the model.
 
 # Recurrent Neural Networks (RNN)
   Recurrent Neural Networks (RNNs) are a class of neural networks that are particularly suited for sequential data such as text. Unlike traditional feedforward neural networks, RNNs maintain a hidden state that can "remember" information from previous time steps, making them powerful for tasks like language modeling and machine translation.
@@ -64,7 +68,9 @@ This project implements a machine translation system that translates sentences f
  - **machine_translation.ipynb**: This is the main Jupyter notebook that contains the code for preprocessing the dataset, defining the model, training the model, and evaluating it.
   - **requirements.txt**: A file that contains the list of Python packages and dependencies required to run the project.
   - **.gitignore**: A file to specify which files/folders to ignore when pushing the project to GitHub.
-  Key Steps in the Project
+  - **dataset**: The file spa.txt is the dataset used in this project.
+
+# Key Steps in the Project
   - **Data Preprocessing**: The source and target language sentences are tokenized and padded to ensure uniform length. We use libraries like nltk and TensorFlow for this step.
   - **Model Definition**: We define an encoder-decoder architecture with attention using Keras's high-level APIs. The encoder processes the input sequence, and the decoder generates the output sequence, guided by the attention mechanism.
   - **Training**: The model is trained using pairs of input (source language) and output (target language) sentences, with categorical cross-entropy as the loss function and Adam as the optimizer.
