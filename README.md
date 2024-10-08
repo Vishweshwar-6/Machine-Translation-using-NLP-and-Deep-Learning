@@ -61,7 +61,7 @@ This project implements a machine translation system that translates sentences f
 # Project Structure
   The project includes the following files:
   
-  machine_translation.ipynb: This is the main Jupyter notebook that contains the code for preprocessing the dataset, defining the model, training the model, and evaluating it.
+ - ***machine_translation.ipynb: This is the main Jupyter notebook that contains the code for preprocessing the dataset, defining the model, training the model, and evaluating it.***
   requirements.txt: A file that contains the list of Python packages and dependencies required to run the project.
   .gitignore: A file to specify which files/folders to ignore when pushing the project to GitHub.
   Key Steps in the Project
