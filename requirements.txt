@@ -1,0 +1,8 @@
+Tensor Flow
+Keras
+sklearn
+NumPy
+Pandas
+Matplotlib
+nltk
+
